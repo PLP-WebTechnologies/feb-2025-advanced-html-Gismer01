@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web dev</title>
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <header>
+        <h1>Contact and Registration Form</h1>
+    </header>
+
+    <div class="content">
+        <!-- Ordered list with Roman numerals -->
+        <h2>Roman Numerals List</h2>
+        <ol type="I">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ol>
+
+        <!-- External Image from Pexels -->
+        <h2>Web dev</h2>
+        <img src="https://t3.ftcdn.net/jpg/08/71/60/32/360_F_871603234_fTMmjlUOpt4F9mDudj8wjyzkt0khEtSZ.jpg" alt="web dev">
+
+        <!-- Table of Contacts -->
+        <h2>Contact Information</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Main St, Cityville</td>
+                    <td>(123) 456-7890</td>
+                    <td>johndoe@email.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Oak Rd, Townville</td>
+                    <td>(234) 567-8901</td>
+                    <td>janesmith@email.com</td>
+                </tr>
+                <tr>
+                    <td>Sam Wilson</td>
+                    <td>789 Pine St, Village</td>
+                    <td>(345) 678-9012</td>
+                    <td>samwilson@email.com</td>
+                </tr>
+                <tr>
+                    <td>Alice Johnson</td>
+                    <td>321 Elm St, Hamlet</td>
+                    <td>(456) 789-0123</td>
+                    <td>alicejohnson@email.com</td>
+                </tr>
+                <tr>
+                    <td>Bob Brown</td>
+                    <td>654 Maple Ave, Metropolis</td>
+                    <td>(567) 890-1234</td>
+                    <td>bobbrown@email.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Registration Form -->
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <!-- Name Field -->
+            <div>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+
+            <!-- Email Field -->
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <!-- Password Field -->
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+
+            <!-- Date Field -->
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <!-- Gender Dropdown -->
+            <div>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <!-- Terms and Conditions Checkbox -->
+            <div>
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the terms and conditions.
+                </label>
+            </div>
+
+            <!-- Subscription Radio Buttons -->
+            <div>
+                <label>Newsletter Subscription:</label>
+                <input type="radio" id="subscribeYes" name="subscribe" value="yes">
+                <label for="subscribeYes">Yes</label>
+                <input type="radio" id="subscribeNo" name="subscribe" value="no" checked>
+                <label for="subscribeNo">No</label>
+            </div>
+
+            <!-- Submit Button -->
+            <div>
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
